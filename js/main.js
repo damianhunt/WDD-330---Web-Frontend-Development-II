@@ -15,7 +15,7 @@ var links = [
     {
         label: "Week4 Notes",
         url: "week4/index.html"
-    }
+    },
   ];
 
   listWeeklyLinks(links,"links");
