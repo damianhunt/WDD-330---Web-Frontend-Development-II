@@ -2,19 +2,19 @@
 var links = [
     {
         label: "Week1 Notes",
-        url: "week1/index.html"
+        url: "GitHub-WDD-330---Web-Frontend-Development-II\week1\index.html"
     },
     {
         label: "Week2 Notes",
-        url: "week2/index.html"
+        url: "GitHub-WDD-330---Web-Frontend-Development-II\week2\index.html"
     },
     {
         label: "Week3 Notes",
-        url: "week3/index.html"
+        url: "GitHub-WDD-330---Web-Frontend-Development-II\week3\index.html"
     },
     {
         label: "Week4 Notes",
-        url: "week4/index.html"
+        url: "GitHub-WDD-330---Web-Frontend-Development-II\week4\index.html"
     },
   ];
 
