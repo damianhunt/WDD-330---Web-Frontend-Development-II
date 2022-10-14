@@ -4,8 +4,8 @@
         box-shadow: 10px 10px 5px;
       }
 
-      img {
-        max-width: 80%;
+      .image img {
+        max-width: 40%;
         border-radius: 10%;
         border: 3px #3a3a3a solid;
 

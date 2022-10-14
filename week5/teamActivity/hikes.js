@@ -80,15 +80,9 @@ const hikeList = [
     };
   }
   // methods responsible for building HTML.  Why aren't these in the class?  They don't really need to be, and by moving them outside of the exported class, they cannot be called outside the module...they become private.
-  //function renderHikeList(hikes, parent) {
-  //  hikes.innerHTML="";
-  //  hikes.forEach(hike => {
-  //    parent.appendChild(renderOneHikeLight(hike));
-  //  });  
-  //}
   function renderHikeList(hikes, hikeList) {
-    hikes.forEach(hike => {
-      hikeList.appendChild(renderOneHikeLight(hike));
+    hikeList.forEach(hike => {
+      hikes.appendChild(renderOneHikeLight(hike));
     });
   }
 
