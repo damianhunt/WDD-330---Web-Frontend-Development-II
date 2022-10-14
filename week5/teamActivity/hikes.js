@@ -89,7 +89,9 @@ const hikeList = [
 
   function renderOneHikeLight(hike) {
     const item = document.createElement("li");
+   // item.classList.add('light');
     item.innerHTML = ` <h2>${hike.name}</h2>
+    <div class="light">
     <div class="image"><img src="${imgBasePath}${hike.imgSrc}" alt="${hike.imgAlt}"></div>
     <div>
             <div>
@@ -100,6 +102,15 @@ const hikeList = [
                 <h3>Difficulty</h3>
                 <p>${hike.difficulty}</p>
             </div>
+            <div>
+                <h3>Difficulty</h3>
+                <p>${hike.description}</p>
+            </div>
+            <div>
+                <h3>Difficulty</h3>
+                <p>${hike.directions}</p>
+            </div>
+    </div>
     </div>`;
     return item;
   }

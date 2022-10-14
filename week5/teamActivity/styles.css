@@ -4,8 +4,12 @@
         box-shadow: 10px 10px 5px;
       }
 
+      h1 {
+        text-align: center;
+      }
+
       .image img {
-        max-width: 40%;
+        max-width: 80%;
         border-radius: 10%;
         border: 3px #3a3a3a solid;
 
@@ -47,7 +51,7 @@
 
       .light {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wra;
         align-items: center;
       }
       .light > h2 {
