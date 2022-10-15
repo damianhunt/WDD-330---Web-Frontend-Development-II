@@ -20,6 +20,10 @@ var links = [
         label: "Week5 Notes",
         url: "/WDD-330---Web-Frontend-Development-II/week5/index.html"
     },
+    {
+        label: "Week6 Notes",
+        url: "/WDD-330---Web-Frontend-Development-II/week6/index.html"
+    },
     
   ];
 
