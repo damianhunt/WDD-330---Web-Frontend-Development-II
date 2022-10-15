@@ -16,6 +16,11 @@ var links = [
         label: "Week4 Notes",
         url: "GitHub-WDD-330---Web-Frontend-Development-II\week4\index.html"
     },
+    {
+        label: "Week5 Notes",
+        url: "GitHub-WDD-330---Web-Frontend-Development-II\week5\index.html"
+    },
+    
   ];
 
   listWeeklyLinks(links,"links");
