@@ -18,7 +18,7 @@ var links = [
     },
     {
         label: "Week5 Notes",
-        url: "GitHub-WDD-330---Web-Frontend-Development-II/week5/index.html"
+        url: "/week5/index.html"
     },
     
   ];
